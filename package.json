@@ -19,5 +19,8 @@
     "gulp-install": "^1.1.0",
     "gulp-minifier": "^0.2.2",
     "gulp-sass": "^3.1.0"
+  },
+  "dependencies": {
+    "npm": "^6.2.0"
   }
 }
