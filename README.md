@@ -24,7 +24,7 @@ WebDev Challange #35 - MoGo
 - make iphone to slide in while on screen
 - change section "SOME OF OUR WORK" from grid to flex to support layout on IE, Safari etc...
 - Minifying files - done
-- added babel - done
+- add babel - done
 - make it look good on iphone in safari and chrome - done
 
 - note for future projects - use more img instead of background-image of div's, it will allow to put alt on img (accessibility))
