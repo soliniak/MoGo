@@ -248,9 +248,9 @@ function slider () {
 
 	for (let i = 0; i < slider.length; i++) {
 
-		let 	slides 	= slider[i].querySelectorAll(".slide"),
-				goLeft 	= slider[i].querySelector(".arrow-right"),
-				goRight = slider[i].querySelector(".arrow-left");
+		let slides 	= slider[i].querySelectorAll(".slide"),
+			goLeft 	= slider[i].querySelector(".arrow-right"),
+			goRight = slider[i].querySelector(".arrow-left");
 		
 		let click = 0;
 
@@ -367,15 +367,12 @@ function preloader () {
 		body.style.overflowY = "scroll"
 		logoAnimated.style.display = "none";
 	}, 500);		
-	
 }
 
 
 // ########################### burger menu #########################
 
 function burgerMenu () {
-
-
 
 	const headerNavbar = document.querySelector(".header__navbar");
 
@@ -393,6 +390,8 @@ function burgerMenu () {
 
 	elArr.forEach(el => el.addEventListener("click", function () {
 		headerNavbar.classList.remove("showBurger");
+		burgerButton.classList.add("fa-bars");
+		burgerButton.classList.remove("fa-times");
 	}));
 
 }
