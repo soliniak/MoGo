@@ -339,7 +339,8 @@ a[id="contact"]:target {
   position: relative;
   display: flex;
   align-items: center;
-  color: #333333; }
+  color: #333333;
+  cursor: pointer; }
   .info__item--title {
     font-family: Montserrat-Regular;
     text-transform: uppercase;
